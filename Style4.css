@@ -1,0 +1,147 @@
+.header-container{
+    background-color:burlywood;
+    border-bottom: 2px  palevioletred;
+    height:15vh;
+    align-items: center;
+    display :  flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 5px 5px 30px grey;
+    }
+    .nav-bar {
+      margin-left: 20vw;
+    }
+    .nav-bar ul{
+    list-style-type: none;
+    } 
+    .nav-bar ul li{
+    display: inline;
+    padding: 2em;
+    }
+    .nav-bar ul li a{
+    text-decoration: navy;
+    color: rgb(192, 193, 255);
+    }
+    .nav-bar ul li a:hover{
+    color: coral;
+    border-bottom: 1px solid lightgreen;
+    padding-bottom: 1em;
+    }
+    .heading{
+      text-align:center;
+      position:center;
+    }
+    button{
+        background: green;
+        color: rgb(16, 17, 16);
+        border: 2px solid green;
+        width: 5vw;
+        border-radius: 10px;
+        position: center;
+        align-self: center;
+        }
+        
+        button:hover
+        {
+        background: lightgreen;
+        color: rgb(80, 162, 255);
+        border: 2px solid coral;
+        width: 5vw;
+        border-radius: 10px;
+        align-items: center;
+        position: center;
+       }
+       .search input[type=text]{
+         width:15vw;
+         height: 10 px;
+         border-radius: 5px;
+         border: white; 
+       }
+       .search{
+         float:right;
+         margin: 10px;
+       }
+       .search button{
+         background-color: grey;
+         color:white;
+         border:  white;
+         float: right;
+         padding: 10px;
+         margin-right: 16px;
+         font-size: 15px;
+         border-radius: 5px;
+         cursor: pointer;
+       }
+       .search::after{
+         content: "";
+         clear:both;
+         display:table;
+       }
+       .hero-unit-container{
+        background-image : url('fruits.png');
+        background-size: 1300px 400px;
+        height:70vh;
+        text-align: center;
+        }
+        .hero-unit-container h1{
+        margin: 0.5em;
+        display:flex;
+        padding-bottom: 0vh;
+        padding-top: 2vh;
+        font-size: 6em;
+        }
+       .paper-layout-section h3{
+        text-align: center;
+        background-color: lightyellow;
+        color:burlywood;
+        font:3em;
+        }
+        .paper-card-container{
+         background-color: lightyellow; 
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        justify-content: space-evenly;
+        margin-top: 3vw;
+
+        }
+       .card h3{
+        color:rgb(36, 41, 11);
+        }
+       .cardp{
+        color:rgb(255, 255, 255);
+        }
+       .card img{
+        height: 35vh;
+        width: 18vw;
+        }
+    
+         .card{
+         background-color:  rgb(255, 255, 255);
+         text-align: center;
+         height: 65vh;
+         width:20vw;
+         padding: 1em;
+        box-shadow: 5px 5px 30px rgb(128, 128, 128); /*Paper layout projection*/
+        }
+        .map {
+          text-align: Center;
+          text-decoration: mediumblue;
+          background-color: lightyellow;
+          font-size:15px;
+        }
+        footer{
+         background-color:grey;
+         border: solid black;
+         margin: 0;
+        }
+         table{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 85%;
+        }
+        td,th{
+        border: none;
+        text-align: center;
+        text-decoration: white;
+        padding:8px;
+        }
